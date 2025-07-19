@@ -21,7 +21,7 @@ def plot_env(env):
     plt.pause(0.1)
 
 env = BreakoutEnv(num_bricks=10)
-state = env.reset(layout="block")  # You can switch to 'block', 'pyramid', or 'random'
+state = env.reset(layout="block")  # You can switch to 'block', 'pyramid', or 'random' or 'line' layouts
 
 plt.ion()
 fig = plt.figure(figsize=(6, 4))
