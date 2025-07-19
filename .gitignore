@@ -1,0 +1,21 @@
+# Ignore Python virtual environment
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter/IPython Notebook checkpoints
+.ipynb_checkpoints
+
+# Matplotlib config
+.matplotlib/
+
+# VSCode settings (optional if you want teammates to customize their own)
+.vscode/
+
+# Mac OS hidden files
+.DS_Store
+
+docs/
